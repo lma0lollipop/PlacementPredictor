@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body { 
+    background-color: #8AAAE5 ;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+
+ul {
+    font-family: "Ubuntu", sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    padding: 0px 0px;
+
+}
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+li a:hover {
+    background-color: #ffffff54;
+}
+
+.active {
+    background-color: #ffffff54;
+    font-weight: bold;
+}
+
+.form {
+    margin: auto;
+    font-size: 2.5rem;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 1px; 
+    font-family: "Archivo Black", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+input {
+    font-size: 2rem;
+    height: 2rem;
+    width: 30rem;
+    border: 2px solid rgba(0, 0, 0, 0.264);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+input:hover {
+    border: 2px solid #022a75fd;
+
+}
+
+input:active {
+    border: 2px solid #022a75fd;
+    text-align: center;
+}
+
+.submit button {
+    border-radius: 6%;
+    background-color: #022a75fd;
+    color: #FFFFFF;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.2rem;
+    height: 60px;
+    width: 130px;
+    text-align: center;
+    border: 0.1px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #022a7546;
+}
+
+#res {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#result {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Archivo Black", sans-serif;
+    color: whitesmoke;
+}
+
+
+#credits {
+    margin-top: 60px;
+}
+#github {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.github-link {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#link {
+    width: 100%;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+#link a {
+    float: right;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    text-align: center;
+}
