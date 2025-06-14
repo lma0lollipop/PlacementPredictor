@@ -142,6 +142,41 @@ footer {
     text-align: center;
 }
 
+/* Container section */
+#res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+/* Result display box */
+#result {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffffff88;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 2.2rem;
+    font-family: "Archivo Black", sans-serif;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    #result {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+}
+
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2.5rem;
