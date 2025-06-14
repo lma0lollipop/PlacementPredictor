@@ -27,7 +27,7 @@
     <br><br>
     <main class="form">
         <section id="forminput">
-            <form action="{% url 'result' %}" method="post"> {% csrf_token %}
+            <form action="{% url 'result' %}" method="get">
                 <div class="cgpa">
                     <label for="cpga">Enter your CGPA</label><br>
                     <input type="text" name="cgpa" id="cgpa" required>
