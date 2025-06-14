@@ -5,11 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Placement Prediction</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'styles/style.css' %}" type="text/css">
 </head>
@@ -18,18 +14,18 @@
         <h1>Placement Prediction</h1>
         <nav class="navbar">
             <ul>
-                <li><a href="{% url 'home' %}" class="active" >Placement Predictor</a></li>
-                <li><a href="{% url 'aptitude' %}" >Aptitude Test</a></li>
-                <li><a href="{% url 'cgpa' %}" >CGPA Calculator</a></li>
+                <li><a href="{% url 'home' %}" class="active">Placement Predictor</a></li>
+                <li><a href="{% url 'aptitude' %}">Aptitude Test</a></li>
+                <li><a href="{% url 'cgpa' %}">CGPA Calculator</a></li>
             </ul>
         </nav>
     </header>
-    <br><br>
+
     <main class="form">
         <section id="forminput">
             <form action="{% url 'result' %}" method="get">
                 <div class="cgpa">
-                    <label for="cpga">Enter your CGPA</label><br>
+                    <label for="cgpa">Enter your CGPA</label><br>
                     <input type="text" name="cgpa" id="cgpa" required>
                 </div>
                 <div class="iq">
@@ -42,6 +38,7 @@
             </form>
         </section>
     </main>
+
     <footer>
         <div id="credits">
             <div class="github-link">
@@ -55,7 +52,6 @@
                 </div>
             </div>
         </div>
-        
     </footer>
 </body>
 </html>
