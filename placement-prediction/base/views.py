@@ -17,8 +17,8 @@ def result(request):
     file = open('ml-models/model.pkl', 'rb')
     model = load(file)
     file.close()
-    cgpa = request.POST['cgpa']
-    iq = request.POST['iq']
+    cgpa = request.GET['cgpa']
+    iq = request.GET['iq']
     prediction = model.predict([[float(cgpa), float(iq)]])
     print(prediction)
     if prediction[0] == 0:
