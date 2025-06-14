@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i-v4=q_e_)es3y4(6ga$pu(@&^b_&e6cp&(3a8dkgj)+%s8ke9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['placement-predictor-vxli.onrender.com']
 
 
 # Application definition
